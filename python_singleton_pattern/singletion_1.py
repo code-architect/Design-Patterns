@@ -24,4 +24,7 @@ if __name__ == "__main__":
         print("Failed to call const")
     r1 = Recoder.get_instance()
     r1.set_val(5)
-    print(r1.get_val()) 
+    print(r1.get_val())
+    r2 = Recoder.get_instance()
+    r2.set_val(5)
+    print(r2.get_val())
